@@ -1,0 +1,39 @@
+
+.section__clr {
+    background-color: var(--main-bg-accent);
+    padding: 88px 0;
+}
+.title-text {
+    margin-bottom: 20px;
+}
+
+.general-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.information-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.information-text:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 944px) {
+    .container {
+        width: 944px;
+        padding: 0;
+    }
+
+    .information-text {
+       
+        margin-bottom: 50px;
+    }
+
+    .section__clr {
+        padding: 110px 0;
+    }
+}
